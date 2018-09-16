@@ -21,17 +21,19 @@ is a short introduction on how to compile it yourself or a recent Debian or Ubun
 1. Make sure you have all required packages installed:
  ```
  sudo apt-get update
- sudo apt-get install git wget file python cpio unzip rsync bc build-essential
+ sudo apt-get install --no-install-recommends -y git wget file python cpio unzip rsync bc build-essential \
+           ca-certificates device-tree-compiler libncurses5-dev cmake npm phantomjs libcap-dev imagemagick
+
  ```
 
 2. Create a base-directory for all MidiGurdy related files:
  ```
  mkdir ~/mgurdy
+ cd ~/mgurdy
  ```
 
 3. Check out the midigurdy/mg-build repository:
  ```
- cd ~/mgurdy
  git clone https://github.com/midigurdy/mg-build.git
  ```
 
@@ -51,4 +53,4 @@ is a short introduction on how to compile it yourself or a recent Debian or Ubun
  ```
  ~/mgurdy/mg-build/scripts/build_system_image.sh ~/mgurdy/build/output/images
  ```
-You will end up with a midigurdy-X.X.X.swu update file which you can store onto a USB stuck and use to update the instrument.
+You will end up with a midigurdy-X.X.X.swu update file which you can store onto a USB stick and use to update the instrument.
