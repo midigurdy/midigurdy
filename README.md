@@ -22,7 +22,7 @@ is a short introduction on how to compile it yourself or a recent Debian or Ubun
  ```
  sudo apt-get update
  sudo apt-get install --no-install-recommends -y git wget file python cpio unzip rsync bc build-essential \
-           ca-certificates device-tree-compiler libncurses5-dev cmake npm phantomjs libcap-dev imagemagick
+           ca-certificates device-tree-compiler libncurses5-dev cmake npm libcap-dev imagemagick
 
  ```
 
