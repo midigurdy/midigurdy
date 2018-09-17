@@ -3,8 +3,17 @@
 The MidiGurdy is an electronic hurdy-gurdy. More information about the instrument can be found on
 http://midigurdy.com and the support forum at https://forum.midigurdy.com
 
-This the repositories in this organization contain all the source code, configuration and sounds used
-on the instrument.
+The repositories in this organization contain all the source code, configuration and sounds used
+on the instrument. The code is split across multiple repositories:
+
+* [midigurdy/mg-build](https://github.com/midigurdy/mg-build) - Configuration and scripts to build the MidiGurdy software stack
+* [midigurdy/mg-core](https://github.com/midigurdy/mg-cire) - The main program, sound generation, user-interface etc
+* [midigurdy/mg-effects](https://github.com/midigurdy/mg-effects) - LADSPA effects used in the MidiGurdy sound output
+* [midigurdy/mg-initialdata](https://github.com/midigurdy/mg-initialdata) - Default SoundFonts and configuration
+* [midigurdy/mg-web](https://github.com/midigurdy/mg-web) - The web-interface of the MidiGurdy
+* [midigurdy/linux](https://github.com/midigurdy/linux) - Linux kernel and special MidiGurdy drivers
+
+This repository - midigurdy/midigurdy - does not contain any source code and is only used for documentation, wiki and issue tracker.
 
 ## Reporting Bugs or Feature Requests
 
