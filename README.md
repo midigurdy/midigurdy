@@ -7,7 +7,7 @@ The repositories in this organization contain all the source code, configuration
 on the instrument. The code is split across multiple repositories:
 
 * [midigurdy/mg-build](https://github.com/midigurdy/mg-build) - Configuration and scripts to build the MidiGurdy software stack
-* [midigurdy/mg-core](https://github.com/midigurdy/mg-cire) - The main program, sound generation, user-interface etc
+* [midigurdy/mg-core](https://github.com/midigurdy/mg-core) - The main program, sound generation, user-interface etc
 * [midigurdy/mg-effects](https://github.com/midigurdy/mg-effects) - LADSPA effects used in the MidiGurdy sound output
 * [midigurdy/mg-initialdata](https://github.com/midigurdy/mg-initialdata) - Default SoundFonts and configuration
 * [midigurdy/mg-web](https://github.com/midigurdy/mg-web) - The web-interface of the MidiGurdy
